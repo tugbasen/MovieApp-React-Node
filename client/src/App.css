@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    color: #ffffff;
+    background-color: #0b314f;
+}
+
+.logo{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.logoType:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menus{
+    display: flex;
+    list-style: none;
+}
+
+.menu{
+    display: contents;
+    list-style: none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5em;
+}
+
+.settingsMenus{
+    display: flex;
+    list-style: none;
+}
+
+.settingMenu{
+    display: contents;
+    list-style: none;
+}
+
+.settingMenu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.container{
+    width: 96%;
+    margin: 1em auto;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-gap: 15px;
+}
+
+.info{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.squareBox{
+    display: inline-block;
+    width: 33px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.squareText{
+    padding-left: 4px;
+}
+
+.movieCardImage{
+    width: 100%;
+}
+
+/* .card__rating {
+    position: relative;
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-left: 5px;
+    color: #fff;
+    border-radius: 50%;
+    border: 3px solid ;
+    background-color: #141414;
+    font-size: 15px;
+} */
+
+.firstCircule{
+    color: #fff !important;
+}
+
+.circule{
+    color: #17991d !important;
+    border-radius: 50%;
+    background-color: #282B2A !important;
+    position: relative;
+}
+
+.score{
+    margin-right: 3rem;
+    margin-left: 5px;
+    bottom: 25px;
+}
+
+.movieCardBody{
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+
+.card-title{
+    font-size: 15px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.cardLink{
+    text-decoration: none ;
+    color: #0b314f;
+}
+
+.cardLink:hover{
+    text-decoration: none;
+    color: #0b314f;
+}
+
+.buttonStyle{
+    width: 100%;
+    text-align: start;
+}
+
+.buttonArrow{
+    text-align: end;
+    width: auto;
+}
+
+.submitButton{
+    display: block;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #E3E6E5;
+    color: #848685;
+    font-weight: 500;
+}
+
+.detailMovieScore{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.genresButton{
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+.genresButton:hover{
+    background: none;
+    color: #282B2A;
+}
+
+.scoreContent{
+    margin-right: 10px;
+    display: inline;
+}
+
+.casts{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-direction: column;
+    display: flex;
+    height: 75vh;
+}
+
+.keywordsButtons{
+    border: 1px solid #848685;
+    margin-right: 5px;
+}
+
+.movieSummary{
+    position: relative;
+}
+
+.movieBackdrop{
+    background: linear-gradient(135deg, rgba(5,1,24,1) 39%, rgba(11,17,61,1) 57%, rgba(143,157,222,1) 100%);
+    position: relative;
+}
+
+.imageBackdrop{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.rowPart{
+    height: 70vh;
+    width: 100%;
+}
+
+.imagePoster{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.aboutMovie{
+    margin-top: 70px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.detailMovieTitle{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.detailBox{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #98A29D;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    color: #98A29D;
+    font-size: small;
+}
+
+.movieDetailScore{
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.userScore{
+    font-size: 13px;
+    margin-right: 25px;
+}
+
+.tags{
+    margin-left: 15px;
+    border: 10px solid #0b314f ;
+    border-radius: 50%;
+    background: #0b314f;
+}
+
+.tagline{
+    margin-top: 10px;
+    color: #98A29D;
+    margin-bottom: 10px;
+}
+
+
